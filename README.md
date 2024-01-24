@@ -12,3 +12,5 @@ The extraction of dust from residential HVAC filters plays a crucial role in QFF
 
 In this repository, I will present all the data pipelines, data pre-processing codes, statistical models, descriptive statistics, and plot visualizations related to Phase 1 of Mahdavi &amp; Siegel (2020) (AS&T) paper. While most of the front-end results have been discussed in the accompanying paper, what you will find here are the underlying codes that generate the results and discussions presented in the paper.
 
+The majority of the Python codes are provided in both ".py" format (for a single run purpose) as well as ".ipynb" for walking the reader through the data pipleline process.
+
