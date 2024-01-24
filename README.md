@@ -1,4 +1,4 @@
-This repository summarizes all the data pipelines, data pre-processing codes, statistical models, descriptive statistics, and plot visualizations from Phase 1 of Mahdavi &amp; Siegel (2020) (AS&ampT)  
+This repository summarizes all the data pipelines, data pre-processing codes, statistical models, descriptive statistics, and plot visualizations from Phase 1 of Mahdavi & Siegel (2020) (AS&ampT)  
 Project Miestone: 2017 - 2020  
 Full-length article: https://www.tandfonline.com/doi/full/10.1080/02786826.2020.1774492
 
@@ -10,5 +10,5 @@ The analysis of dust particles on HVAC filters is known as Filter Forensics. By 
 
 The extraction of dust from residential HVAC filters plays a crucial role in QFF. A good dust recovery and recovery efficiency can significantly improve the accuracy of QFF estimations. Therefore, it is essential to study the extraction process of dust from these filters. Data mining of HVAC filter dust extraction allows us to draw sufficient insights to support better estimation of IAQ and the health effects of harmful particle-bound contaminants.
 
-In this repository, I will present all the data pipelines, data pre-processing codes, statistical models, descriptive statistics, and plot visualizations related to Phase 1 of Mahdavi &amp; Siegel (2020) (AS&ampT) paper. While most of the front-end results have been discussed in the accompanying paper, what you will find here are the underlying codes that generate the results and discussions presented in the paper.
+In this repository, I will present all the data pipelines, data pre-processing codes, statistical models, descriptive statistics, and plot visualizations related to Phase 1 of Mahdavi &amp; Siegel (2020) (AS&T) paper. While most of the front-end results have been discussed in the accompanying paper, what you will find here are the underlying codes that generate the results and discussions presented in the paper.
 
