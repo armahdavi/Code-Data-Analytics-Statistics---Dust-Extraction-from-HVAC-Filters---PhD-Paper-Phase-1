@@ -1,3 +1,4 @@
+## Summary
 This repository summarizes all the data pipelines, data pre-processing codes, statistical models, descriptive statistics, and plot visualizations from Phase 1 of Mahdavi & Siegel (2020) (AS&ampT)  
 Project Milestone: 2017 - 2020  
 Full-length article: https://www.tandfonline.com/doi/full/10.1080/02786826.2020.1774492
