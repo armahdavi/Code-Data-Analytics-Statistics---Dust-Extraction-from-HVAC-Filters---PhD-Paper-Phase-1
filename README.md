@@ -11,6 +11,8 @@ This analysis technique is known as Filter Forensics. When combined with metadat
 Dust recovery from residential HVAC filters is a critical step in QFF. Efficient dust extraction significantly improves the accuracy of QFF estimations. Therefore, studying and optimizing this process is essential. Data analysis of extracted dust provides valuable insights for better understanding IAQ and the health effects of harmful contaminants.
 
 ## This Repository
-This repository showcases the data pipelines, pre-processing code, statistical models, descriptive statistics, and visualizations used in Phase 1 of the Mahdavi & Siegel (2020) (AS&T) paper. While the paper itself discusses the front-end results, this repository provides the underlying code that generates those results, allowing you to explore the analysis firsthand.
+This repository showcases the data pipelines, pre-processing code, statistical models, descriptive statistics, and visualizations used in Phase 1 of the Mahdavi & Siegel (2020) (AS&T) paper. 
+In this phase, filters were artificially loaded with standardized test dust samples in the lab for further extraction experiment processes.
+While the paper itself discusses the front-end results, this repository provides the underlying code that generates those results, allowing you to explore the analysis firsthand.
 
 The pre-processing and logical Python codes are provided in .py (originally written in Spyder), and data visualization, statistical models, and front-end calculations are provided in .ipynb (written in Jupyter) for a guided walk-through of the data pipeline process.
