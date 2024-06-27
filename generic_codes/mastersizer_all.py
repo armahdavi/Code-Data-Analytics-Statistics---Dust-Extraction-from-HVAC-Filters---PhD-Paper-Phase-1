@@ -91,8 +91,6 @@ def mastersizer_input(path,importfile,exportfile):
 ### Function 2: mastersizer_input_v2
 ### The difference between mastersizer_input and mastersizer_input_v2 is that v2 has the import and export paths separate
 
-
-
 def mastersizer_input_v2(importpath,exportpath,importfile,exportfile):
     getpathimport = backslash_correct(importpath) # corrects path if \ is used instead of /
     getpathexport = backslash_correct(exportpath)
@@ -170,8 +168,7 @@ def mastersizer_input_v2(importpath,exportpath,importfile,exportfile):
 ### The function extracts dx information from a raw mastersizer file. 
 ### It is compatible to any no. of dxs
 ### Compatible with csv files only for now
-### Same algorithm as bins in the above functions but for d-values only, escept no transpose
-
+### Same algorithm as bins in the above functions but for d-values only, except no transpose
  
 def mastersizer_d_input(importpath,exportpath,importfile,exportfile):
     getpathimport = backslash_correct(importpath) # corrects path if \ is used instead of /
