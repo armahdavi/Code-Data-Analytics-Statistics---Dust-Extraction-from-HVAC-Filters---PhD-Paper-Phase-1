@@ -11,8 +11,8 @@ import sys
 sys.modules[__name__].__dict__.clear()
 import pandas as pd
 
-exec(open('C:/Career/Learning/Python Practice/Generic Codes/notion_corrections.py').read())
-exec(open('C:/Career/Learning/Python Practice/Generic Codes/mastersizer_all.py').read())
+exec(open('C:/PhD Research/Generic Codes/notion_corrections.py').read())
+exec(open('CC:/PhD Research/Generic Codes/mastersizer_all.py').read())
 
 ##############################################
 ### Step 1: Reading PSD files and refining ###
@@ -30,11 +30,8 @@ psd_list = [x for x in psd_list if 'mean' in x if ('hd' in x) | ('td' in x) if '
 s_w_p_values = {}
 
 for item in psd_list:
-    if item[18:20] == 'td':
-        key = item[5:8] + '_' + item[18:20]
-        value = shapiro_wilk_psd(df,item)
-        s_w_p_values[key] = value
-    else:
-        key = item[5:8] + '_' + item[18:20]
-        value = shapiro_wilk_psd(df,item)
-        s_w_p_values[key] = value
+    key = item[5:8] + '_' + item[18:20]
+    value = shapiro_wilk_psd(df,item)
+    s_w_p_values[key] = value
+    
+pd.DataFrame.from_dict(s_w_p_values, orient='index', columns=['p_values'], dtype=None).to_excel(backslash_correct(r'C:\PhD Research\Paper 1 - Extraction\Processed\artificial\s_w_p_values_all.xlsx'))
